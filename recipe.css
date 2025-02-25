@@ -1,0 +1,162 @@
+        * {
+            overflow: auto;
+        }
+        
+        body {
+            background-color: #8ba1BB;
+            font-family: Arial;
+            margin: 0;
+        }
+
+        p.category {
+            background-color: black;
+            color: white;
+            display: inline-block;
+            margin-top: -15px;
+            margin-bottom: 0px;
+            padding: 8px 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .center {
+            text-align: center;
+            width: 100%;
+        }
+
+        div.category {
+            /* text-align: center; */
+            margin-top: 0px;
+            margin-bottom: 0px;
+            overflow: visible;
+        }
+
+        div.content {
+            background-color: white;
+            margin: 60px 10% 80px 10%;
+            padding: 0px 30px 30px 30px;
+            min-width: 350px;            
+            box-shadow: 0px 0px 8px 8px rgb(0 0 0 / 10%);
+            overflow: visible;
+
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 12px;
+        }
+
+        p.description {
+            text-align: center;
+            max-width: 400px;            
+            display: inline-block;
+            font-size: 14px;
+           
+        }
+
+        div.separator {
+            height: 1px;
+            width: 100px;
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.info {
+            position: relative; 
+        }
+
+        table.info {
+            border: 1px;
+            position: absolute; 
+            bottom: 0; 
+            width: 100%;
+            color: white; 
+            background-color: #6C829DC0; 
+            height: 80px;
+        }
+
+        table.info td {
+            text-align: center;
+            vertical-align: top;
+            font-size: 14px;
+        }
+
+        table.info th {
+            vertical-align: bottom;
+            padding-bottom: 8px;
+            font-size: 16px;
+        }
+
+    
+        img.info {
+            display: block;
+            max-height: 400px;
+            object-fit: cover;
+            background-color: lightgray;
+            min-height: 200px;
+        }
+
+        div.col {
+            width: 45%;
+            margin-top: 20px;
+        }
+        div.col h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            border-bottom: 5px solid #6C829D;
+            padding: 5px;
+        }
+
+        div.col1 {
+            /* background-color: lightblue; */
+            display: inline-block;
+            margin-right: 10%;
+            
+        }
+
+        div.col2 {
+            float: right;            
+        }
+
+        div.ingredients p {
+            font-size: 14px;
+            text-align: center;
+            border: 1px solid grey;
+            margin-top: 4px;
+            margin-bottom: 0px;
+            padding: 8px 0px;
+        }
+
+        table.instructions p.number {
+            background-color: #6C829D;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 4px;
+            border-radius: 50%;
+
+        }
+
+        table.instructions td.instruction_step {
+
+            font-size: 14px;
+            padding-left: 10px;
+            padding-bottom: 10ox;
+
+        }
+
+        table.instructions td {
+            /* vertical-align: top; */
+        }
+
+        table.instructions tr {
+            /* vertical-align: top; */
+            height: 40px;
+        }
